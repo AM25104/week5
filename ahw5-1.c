@@ -26,7 +26,8 @@ int main(void) {
         steps++;
     }
 
-    // If target < n, we need (n - target) increments forward
+    // If target < n, we need (n - target) 
+    //increments forward
     if (target < n) {
         steps += (n - target);
     }
